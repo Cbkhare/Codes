@@ -5,6 +5,7 @@ from collections import Counter as c
 class Solution:
 
     def bazinga(self,feq, m, ct):
+        print (ct)
         if ct == len(m):
             return
         elif ct == 0:
@@ -28,13 +29,13 @@ class Solution:
                     if put_val_2 not in temp and put_val_2 not in self.bharo \
                             and int(put_val_2) < int(t):
                         temp.append(put_val_2)
-                #print ('sdsdsdsd', t, feq, feq_val, put_val, put_val_2)
+                print(temp)
             self.bharo = temp
             self.bazinga(feq, m, ct + 1)
 
 
     def precompute_digits(self,n, m):
-        if len(n) < len(m):   return [''.join(sorted(n))]
+        if len(n) < len(m):   return [''.join(sorted(n, reverse=True))]
         feq = c(n)
         count = 0
         self.bharo = []
