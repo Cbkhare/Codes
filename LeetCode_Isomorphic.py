@@ -1,5 +1,4 @@
 from sys import stdin as si
-from collections import Counter as c
 
 
 class Solution:
