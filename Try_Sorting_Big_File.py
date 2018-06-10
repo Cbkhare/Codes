@@ -34,23 +34,25 @@ def merge(fl):
                 cf.write(nums)
         hq.heapify(numbers_list)
         for i in range(len(numbers_list)):
-            with open('output_file', 'ab+') as of: #output file
+            with open('output_file', 'ab+') as of: #output file, unless mode is 'r' whole file is not loaded
                 of.write(hq.heappop(numbers_list))
         for df in del_file:
             files_list.remove(df)
 
         if files_list == []:
-            break 
+            break
 
 
 
 if __name__=="__main__":
     file = open('input_file', 'rb')
+    size = 1*1024 # see global cache
     count = 0
     files_list = []
-    for data in read_in_chunks(file):
+    for data in read_in_chunks(file, file_size=size):
         count += 1
         files_list.append('temp_'+str(count))
         sort_and_write_data(data, str(count))
 
     merge(files_list)
+    print ('output file with sorted data')
