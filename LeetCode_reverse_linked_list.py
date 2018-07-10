@@ -5,6 +5,8 @@
 #         self.next = None
 
 class Solution:
+
+    # When head is given
     def reverseList(self, head):
         """
         :type head: ListNode
@@ -19,6 +21,19 @@ class Solution:
             temp = t_next
         return old
 
+    # Using self.head
+    def reverseList_withself(self):
+        # Code here
+        if self.head is None:
+            return None
+        reve = None
+
+        while self.head:
+            t_next = self.head.next
+            self.head.next = reve
+            reve = self.head
+            if t_next == None:   break
+            self.head = t_next
 
 '''
 Input: [1,2,3,4,5]
