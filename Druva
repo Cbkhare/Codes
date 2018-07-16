@@ -1,0 +1,59 @@
+What is OSI model? Functionality of each layer
+2. What is TCP and UDP? Difference between them. Their full functionality?
+3. Difference between get and post method ?
+4. Difference between HTTP and HTTPs?
+5. What is DNS? How it works ?
+6. What is SSL certification?
+7. Difference between multiprocessing and multithreading? How it works ?
+8. Scheduling algorithm?
+9. How scheduling algorithm will work in multithreaded application?
+10. What is process management and memory management?
+11. Lets say we have multiprocessor system(CPU 1,2,3). Each processor contain n processes. And each process contain multiple threads. How threads will communicate with the thread inside same process(P1) and inside same CPU1 , with thread in diff process(P2) but same processor(CPU1), with thread in different process(Px) in diff processor(CPU2)
+12. What is mutex and semaphore ?
+13. Searching and sorting algorithm?
+14. Explain Selection and Quick sort? Which is more efficient
+15. How to calculate time complexity for Quick Sort (Best- nlogn)
+16. In your career where you faced hardest problem while debugging the issue?
+17. What is shallow copy and deep copy?
+
+
+
+q.1 Sort a stack. Max one stack of auxiliary space allowed, The only allowed operations in stack are empty(), top(), pop().
+
+q.2 Given a sorted linked list (ascending). Transfer its content to another List. o(n) extra space allowed.
+    Constraints:-
+    1- Node can be inserted at the end of list.
+    2. Data present in the list should be in sorted order(ascending) after each insertion.
+
+Other questions were about finding complexity of given code snippets.
+
+---------------------------
+1st Technical Round
+---------------------------
+
+Questions were emphasized on Sorting very huge files, asked to provide multithreaded solutions.
+
+Q.1 Explain what happends when a URL is typed in Browser, Explain role of all N/W layers.
+Q.2 Sort a List, List has Blue and Red Items, All red should be at starting and Blue at end, Interviewer asked me to provide o(n) solution which require single pass.
+Q.3 Implement Disctionary, What data structure to use, Trie and Hashing could be 2 approaches.
+
+------------------------------
+2nd Technical Interview
+------------------------------
+
+Q.1 Print all K dist nodes from a given node in Binary tree.
+Q.2 Sort a Large file (2)GB consisting integers value, Asked to provide multi threaded solution.
+Q.3 Given a file with multiple sentences saperated by delimeter. Remove duplicate sentances. Provide multi threaded solution.
+Q.4 Design A system for Automated parking with N floors, Each floor capacity of M cars, There are X entrances and Y exit. On entry generate a token, on Exit generate bill based on time duration. Make it multithreaded.
+
+--------------------------------
+3rD managerial Round
+--------------------------------
+
+Question on Previous projects. Discussed critical issues I solved during my project. General discussion on company policies and products.
+
+----------------------------
+HR Round
+----------------------------
+
+Discussed about Compensation and she collected some basic data. I also got Gifts for clearing all the rounds. Waiting for final offer.
